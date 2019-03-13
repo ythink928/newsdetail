@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:id="@+id/tv_title2"
+      android:layout_width="match_parent"
+      android:layout_height="115dp"
+      android:text="我是个标题"
+      android:textColor="#ffffffff"
+      android:textSize="20sp"
+      android:padding="15dp"
+      android:gravity="bottom"
+      android:lines="3"
+      android:ellipsize="end"
+      android:layout_alignParentBottom="true"
+      />
+
+
+</RelativeLayout>
